@@ -1,18 +1,16 @@
-#include "mainwindow.h"
-#include "connexion.h"
-#include "gestion_sj.h"
-#include "gestion_lev.h"
+#include "dialog.h"
 #include <QApplication>
-
+#include <QMessageBox>
+#include "connexion.h"
+#include <QtDebug>
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
-    connexion c;
+    Dialog w;
+    Connexion c;
     try {
-       bool t= c.createconnect();
-        qDebug()<<"connexion valide"<<t;
-
+       bool t= c.ouvrirConnexion();
+        qDebug()<<"hhhhhh"<<t;
         w.show();
 
     } catch (QString s) {

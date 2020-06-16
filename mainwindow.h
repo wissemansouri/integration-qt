@@ -1,9 +1,9 @@
-#ifndef MAINWINDOW_H
+/* #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
+#include "localisation.h"
+#include "evenement.h"
 #include <QMainWindow>
-#include <dialog_home.h>
-#include <dialog_inscription.h>
+
 namespace Ui {
 class MainWindow;
 }
@@ -17,15 +17,25 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_connex_clicked();
-
-    void on_pushButton_inscr_clicked();
-    void showTime();
+    void on_pb_ajouter_clicked();
+void on_pb_modifier_clicked();
+    void on_pb_supprimer_clicked();
+    void on_pb_ajouter_2_clicked();
+void on_pb_modifier_2_clicked();
+    void on_pb_supprimer_2_clicked();
+    void on_rechercher_clicked();
+    void on_rechercher_2_clicked();
+    void on_lineEdit_5_selectionChanged();
+    void on_trier_clicked();
+    void on_pushButton_clicked();
+      void on_trier_2_clicked();
+      void on_lineEdit_6_selectionChanged();
+    void on_tab_5_destroyed();
 
 private:
     Ui::MainWindow *ui;
-    Dialog_home *connexion;
-    Dialog_inscription *inscrire;
+    Localisation tmpLocalisation;
+    Evenement tmpEvenement;
 };
 
-#endif // MAINWINDOW_H
+#endif // MAINWINDOW_H */

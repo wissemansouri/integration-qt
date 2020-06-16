@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>681</width>
-    <height>367</height>
+    <width>708</width>
+    <height>499</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,10 +16,10 @@
   <widget class="QFrame" name="horizontalFrame">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>10</x>
      <y>10</y>
-     <width>441</width>
-     <height>341</height>
+     <width>691</width>
+     <height>481</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout"/>
