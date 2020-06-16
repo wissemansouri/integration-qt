@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_home</class>
+ <widget class="QDialog" name="Dialog_home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>323</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(44, 62, 89);</string>
+  </property>
+  <widget class="QPushButton" name="sport">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>321</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(34, 167, 240);
+
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>sport et joueur</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="localisationetevenement">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>150</y>
+     <width>321</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(34, 167, 240);
+
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>localisation et evenement</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pubsponsoractu">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>230</y>
+     <width>321</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(34, 167, 240);
+
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>pub,sponsor et actualites</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
